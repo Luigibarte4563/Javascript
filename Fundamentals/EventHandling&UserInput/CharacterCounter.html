@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <textarea name="" id="message"></textarea>
+
+    <p id="count">
+        Characters: 0
+    </p>
+</body>
+</html>
+
+<script>
+    let message = document.getElementById("message");
+    let count = document.getElementById("count");
+
+    message.addEventListener("input", function() {
+        count.textContent = "Characters: " + message.value.length;
+    });
+</script>
