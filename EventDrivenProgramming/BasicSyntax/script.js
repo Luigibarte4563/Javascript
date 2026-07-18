@@ -5,7 +5,12 @@
 // });
 
 let button = document.getElementById("button");
+let hello = document.getElementById("hello");
 
 button.addEventListener("click", function() {
     alert("Hello");
+});
+
+hello.addEventListener("click", function() {
+    alert("hello");
 });
