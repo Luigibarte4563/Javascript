@@ -14,3 +14,15 @@ button.addEventListener("click", function() {
 hello.addEventListener("click", function() {
     alert("hello");
 });
+
+// Useful Event Properties
+
+button.addEventListener("click", function() {
+    console.log(event.target);
+});
+
+// event.type
+
+button.addEventListener("click", function() {
+    console.log(event.type);
+});
