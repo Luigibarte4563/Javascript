@@ -16,6 +16,7 @@ hello.addEventListener("click", function() {
 });
 
 // Useful Event Properties
+// event.target
 
 button.addEventListener("click", function() {
     console.log(event.target);
