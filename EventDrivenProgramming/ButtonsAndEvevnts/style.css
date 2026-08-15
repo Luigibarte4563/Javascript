@@ -1,0 +1,9 @@
+body {
+    border: solid black 1px;
+    padding: 10px 30px;
+    width: 150px;
+}
+
+#nameInput{
+    width: 113px;
+}
