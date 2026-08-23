@@ -1,0 +1,36 @@
+body {
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    font-family: Arial, sans-serif;
+}
+
+#card {
+    width: 350px;
+    padding: 30px;
+
+    text-align: center;
+
+    border: 3px solid black;
+
+    transition: 0.3;
+}
+
+button {
+    padding: 10px 15px;
+
+    cursor: pointer;
+}
+
+.blue {
+    background-color: blue;
+    color: white;
+}
+
+.round {
+    border-radius: 30px;
+}
