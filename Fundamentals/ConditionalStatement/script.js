@@ -29,4 +29,10 @@ let role = "admin";
 
 if (role === "admin" || role === "manager") {
     console.log("Access Granted");
+    
+}
+let grade = 85;
+
+if (grade >= 75) {
+    console.log("Passed");
 }
