@@ -30,4 +30,5 @@ form.addEventListener("submit", function(event) {
     }
 
     message.textContent = "Registration successful!";
+    message.textContent = "Congrats";
 });
