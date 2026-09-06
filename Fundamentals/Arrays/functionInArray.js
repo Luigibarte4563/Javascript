@@ -32,3 +32,9 @@ console.log(evenNumbers);
 let result = numbers.filter(number => number > 12);
 
 console.log(result)
+
+export function searchNumber(number) {
+    return numbers.filter(number => {
+        number.name.toLowerCase();
+    });
+}
