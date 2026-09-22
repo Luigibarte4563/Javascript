@@ -14,3 +14,7 @@
     colorYellow.addEventListener("click", function() {
         bodyColor.style.backgroundColor = "yellow";
     });
+
+    document.getElementById("btn").addEventListener("click", function() {
+    alert("Hello Luigi");
+});
